@@ -71,36 +71,38 @@ public class Varias {
     }
     /*Función que calcula el sumatorio de un número introducido por teclado.
     @param n
-    @return result= el resultado del sumatorio del numero.
+    @return sumatorio= el resultado del sumatorio del numero.
     */
     public static int suma1aN(int n){
-        int sumatorio= 1;
-        int result= 0;
-        for (int i=1; i<n; i++){
-            sumatorio= i+sumatorio;
-            result= sumatorio;
+        int numerosumatorio= n;
+        int sumatorio= 0;
+        int contador= n;
+        while (contador!=0){
+            sumatorio= numerosumatorio+contador;
+            contador--;
         }
-        return result;
+        return sumatorio;
     }
     /*Función que calcula el factorial de un número introducido por teclado.
     @param n numero entero 
-    @return result= el resultado del factorial del numero
+    @return factorial= el resultado del factorial del numero
     */
     public static int factorial(int n){
+        int numerofactorial= n;
         int factorial= 1;
-        int result= 0;
-        for(int i=1; i<n; i++){
-            factorial= i*factorial;
-            result= factorial;
+        int contador= n;
+        while (contador!=0){
+            factorial= numerofactorial*contador;
+            contador--;
         }
-        return result;
+        return factorial;
     }
     /*Función que calcula el intermedio.
     @param n numero entero 
     @return intermedio= el resultado de la media del numero
     */
     public static double intermedio1aN(int n){
-        double intermedio= 1/n;
+        double intermedio= n/2;
         return intermedio;
     }
     /*Función que calcula el maximo de 3 números.

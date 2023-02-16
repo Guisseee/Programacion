@@ -7,7 +7,7 @@ public class Ejercicio8 {
     Scanner s= new Scanner(System.in);
     System.out.print("Dame un número: ");
     int n= s.nextInt();
-    System.out.print("El suma sumatorio de 1 hasta "+n+" es: "+Varias.suma1aN(n));
+    System.out.println("El sumatorio de 1 hasta "+n+" es: "+Varias.suma1aN(n));
     System.out.println("El factorial de "+n+" es: "+Varias.factorial(n));
     System.out.print("El intermedio de "+n+" entre 1 es: "+Varias.intermedio1aN(n));
   }
