@@ -1,4 +1,4 @@
-package Tema8_Funciones;
+package Tema8_Funciones.TareaC8_1.Martes31_01_23;
 import java.util.Scanner;
 public class Ejercicio20al28 {
   public static void main(String[] args) {
