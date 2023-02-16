@@ -1,5 +1,5 @@
-package Tema8_Funciones;
-import Tema8_Funciones.misFunciones.Varias;
+package Tema8_Funciones.TareaC8_1.Jueves02_02_23;
+import Tema8_Funciones.TareaC8_1.Jueves02_02_23.misFunciones.Varias;
 import java.util.Scanner;
 
 public class Ejercicio4{
