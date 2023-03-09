@@ -16,4 +16,3 @@ public class Ejemplo1{
         num[9] = num[8];
     }
 }
-//Hloarfjarifefg
