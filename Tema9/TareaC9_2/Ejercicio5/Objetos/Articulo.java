@@ -1,5 +1,6 @@
 package Tema9.TareaC9_2.Ejercicio5.Objetos;
 
+// Atributos
 public class Articulo {
   private String codigo = "LIBRE";
   private String descripcion;

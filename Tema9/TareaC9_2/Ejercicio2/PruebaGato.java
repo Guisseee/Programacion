@@ -5,6 +5,7 @@ public class PruebaGato {
   public static void main(String[] args) {
     Gato[] gato = new Gato[4];
     int i;
+    //Se le dan los valores a los gatos en el mismo programa.
     gato[0] = new Gato("Garfield", "naranja", "mestizo");
     gato[1] = new Gato("Pepe", "gris", "angora");
     gato[2] = new Gato("Mauri", "blanco", "manx");
@@ -12,6 +13,7 @@ public class PruebaGato {
     System.out.println("\nDatos de los gatos.");
 
     for (i = 0; i < 4; i++) {
+      // Se imprimen los datos de los gatos.
       System.out.println("\nGato nº" + (i + 1));
       System.out.println("Nombre: " + gato[i].getNombre());
       System.out.println("Color: " + gato[i].getColor());
