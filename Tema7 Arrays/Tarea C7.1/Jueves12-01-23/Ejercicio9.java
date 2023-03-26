@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class Ejercici9 {
-
   public static void main(String[] args) {
-  
+  Scanner s= new Scanner(System.in);
+    
     int[] numero = new int[8];
     int i;
     
