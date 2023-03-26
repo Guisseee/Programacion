@@ -1,4 +1,4 @@
-public class S71Ejercicio01 {
+public class Ejercicio1 {
   public static void main(String[] args) {
     
       int[] num = new int[12];
