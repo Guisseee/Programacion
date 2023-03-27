@@ -272,4 +272,16 @@ public class Varias {
     public static int voltea(int x) {
         return (int)voltea((long)x);
     }
+
+    /*Ejercicio14 
+     * Genera un triangulo
+     */
+    public static void imprimirTriangulo(char caracter, int numLineas){
+        for(int i=1; i<=numLineas; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print(caracter+" ");
+            }
+            System.out.println();
+        }
+    }
 }
