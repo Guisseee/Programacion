@@ -1,13 +1,7 @@
 package Tema8_Funciones.TareaC8_1.Viernes27_01_23;
 import Tema8_Funciones.TareaC8_1.Jueves02_02_23.misFunciones.Varias;
-/**
- * 8. Funciones
- *
- * Ejercicios 1 a 14
- *
- * @author Luis José Sánchez
- */
-public class S08Ejercicio01a14 {
+
+public class Ejercicios1al6 {
 
   public static void main(String[] args) {
 
