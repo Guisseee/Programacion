@@ -9,29 +9,15 @@ public class Ejercicio1 {
     System.out.println("Dame 6 números y te diré cual es el mayor");
     System.out.println("Si quieres salir del programa ingrese el numero 0.");
     System.out.print("Tus número son: ");
-    int mayor= 0;
+    int maximo= Integer.MIN_VALUE;
+    int minimo= Integer.MAX_VALUE;
     do{
-    int numero1= s.nextInt();
+    int mayor= s.nextInt();
     int numero2= s.nextInt();
-    int numero3= s.nextInt();
-    int numero4= s.nextInt();
-    int numero5= s.nextInt();
-    int numero6= s.nextInt();
-    if(numero1>mayor){
-      mayor= numero1;
-      if(numero2>mayor){
-        mayor= numero2;
-      }if(numero3>mayor){
-        mayor= numero3;
-      } if(numero4>mayor){
-        mayor= numero4;
-      } if(numero5>mayor){
-        mayor= numero5;
-      } if(numero6>mayor){
-        mayor= numero6;
+    
+    if(mayor==Integer.MAX_VALUE){
+      System.out.print("El número mayor es: "+mayor);
       }
-    }
-    System.out.print(mayor);
-  } while();
+    } while(numero2==0);
   }
 }
