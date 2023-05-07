@@ -6,13 +6,15 @@ public class Gato {
   private String nombre;
   private String raza;
   private String color;
+  private String años;
 
 
   // Constructor
-  public Gato(String n, String r, String c){
+  public Gato(String n, String r, String c, String a){
     this.nombre= n;
     this.raza= r;
     this.color= c;
+    this.años=a;
   }
 
 // Metodos
@@ -37,7 +39,9 @@ public class Gato {
   public String getRaza(){
     return raza;
   }
-
+  public String getAños(){
+    return años;
+  }
 /*   public void setRaza (String r){
     this.raza= r;
   } */

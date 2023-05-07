@@ -6,7 +6,7 @@ public class PruebaGatos {
   public static void main(String[] args) {
     Scanner s= new Scanner(System.in);
     Gato[] gato = new Gato[4];
-    String nombre, raza, color;
+    String nombre, raza, color, años;
 
     // Se piden los datos de los gatos y se almacenan en el nuevo gato.
     System.out.println("Dame los datos de los 4 gatos");
@@ -18,7 +18,9 @@ public class PruebaGatos {
       raza= s.next();
       System.out.print("Color: ");
       color= s.next();
-      gato[i]= new Gato(nombre, raza, color);
+      System.out.print("Años: ");
+      años= s.next();
+      gato[i]= new Gato(nombre, raza, color, años);
     }
 
     System.out.println(" ");
@@ -28,7 +30,8 @@ public class PruebaGatos {
       System.out.println("Los datos del gato "+(i+1)+" son los siguientes.");
       System.out.println("Nombre: "+ gato[i].getNombre());
       System.out.println("Raza: "+ gato[i].getRaza());
-      System.out.println("Color: "+gato[i].getColor()+"\n");
+      System.out.println("Color: "+gato[i].getColor());
+      System.out.print("Años: "+gato[i].getAños()+"\n");
     }
   }
 }
