@@ -7,14 +7,17 @@ public class Gato {
   private String raza;
   private String color;
   private String años;
+  private int sardinas;
+
 
 
   // Constructor
-  public Gato(String n, String r, String c, String a){
+  public Gato(String n, String r, String c, String a, int s){
     this.nombre= n;
     this.raza= r;
     this.color= c;
     this.años=a;
+    this.sardinas= s;
   }
 
 // Metodos
@@ -42,7 +45,28 @@ public class Gato {
   public String getAños(){
     return años;
   }
+
 /*   public void setRaza (String r){
     this.raza= r;
   } */
+
+  //Metodo De comer sardinas
+  public int come(int s) {
+    if (sardinas < s) {
+        int sardinasComidas = sardinas;
+        sardinas = 0;
+        System.out.print(nombre + ": ");
+        for (int i = 0; i < sardinasComidas; i++) {
+            System.out.print("Ñam... ");
+        }
+        return sardinasComidas;
+    } else {
+        sardinas -= s;
+        System.out.print(nombre + ": ");
+        for (int i = 0; i < s; i++) {
+            System.out.print("Ñam... ");
+        }
+        return s;
+    }
+}
 }
